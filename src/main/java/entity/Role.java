@@ -17,6 +17,7 @@ public class Role {
 private long id;
 	@Column(nullable=false,unique=true)
 private String name;
+	//its still under developmnt
 	//@ManyToMany(MappedBy="roles")
 	//private List<User> users
 }
